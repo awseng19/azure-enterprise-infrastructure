@@ -1,0 +1,19 @@
+
+variable "subscription_id" {
+  description = "Azure subscription ID"
+  type        = string
+  default     = null
+  nullable    = true
+}
+
+variable "location" {
+  description = "Azure region"
+  type        = string
+  default     = "canadacentral"
+}
+
+variable "project_name" {
+  description = "Project name"
+  type        = string
+  default     = "azure-enterprise"
+}
